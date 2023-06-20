@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container{
   max-width: 1170px;
   margin: 0 auto;
@@ -6,11 +12,13 @@
 /* Contenitore delle colonne */
 .row{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* Resettiamo gli stili iniziali di tutte le colonne */
+/* Selettore che dice: a tutte le classi che iniziano con "col-"
+  applico queste regole. */
 
 [class*="col-"]{
   flex-grow: 0;
@@ -29,72 +37,72 @@
 
 /* Colonna da 1/12 */
 .col-1{
-  flex-basis: calc(100%/12);
-  max-width: calc(100%/12);
+  flex-basis: calc((100% / 12) * 1);
+  max-width: calc((100% / 12) * 1);
 }
 
 /* Colonna da 2/12 */
 .col-2{
-  flex-basis: calc((100%/12) * 2);
-  max-width: calc((100%/12) * 2);
+  flex-basis: calc((100% / 12) * 2);
+  max-width: calc((100% / 12) * 2);
 }
 
 /* Colonna da 3/12 */
 .col-3{
-  flex-basis: calc((100%/12) * 3);
-  max-width: calc((100%/12) * 3);
+  flex-basis: calc((100% / 12) * 3);
+  max-width: calc((100% / 12) * 3);
 }
 
 /* Colonna da 4/12 */
 .col-4{
-  flex-basis: calc((100%/12) * 4);
-  max-width: calc((100%/12) * 4);
+  flex-basis: calc((100% / 12) * 4);
+  max-width: calc((100% / 12) * 4);
 }
 
 /* Colonna da 5/12 */
 .col-5{
-  flex-basis: calc((100%/12) * 5);
-  max-width: calc((100%/12) * 5);
+  flex-basis: calc((100% / 12) * 5);
+  max-width: calc((100% / 12) * 5);
 }
 
 /* Colonna da 6/12 */
 .col-6{
-  flex-basis: calc((100%/12) * 6);
-  max-width: calc((100%/12) * 6);
+  flex-basis: calc((100% / 12) * 6);
+  max-width: calc((100% / 12) * 6);
 }
 
 /* Colonna da 7/12 */
 .col-7{
-  flex-basis: calc((100%/12) * 7);
-  max-width: calc((100%/12) * 7);
+  flex-basis: calc((100% / 12) * 7);
+  max-width: calc((100% / 12) * 7);
 }
 
 /* Colonna da 8/12 */
 .col-8{
-  flex-basis: calc((100%/12) * 8);
-  max-width: calc((100%/12) * 8);
+  flex-basis: calc((100% / 12) * 8);
+  max-width: calc((100% / 12) * 8);
 }
 
 /* Colonna da 9/12 */
 .col-9{
-  flex-basis: calc((100%/12) * 9);
-  max-width: calc((100%/12) * 9);
+  flex-basis: calc((100% / 12) * 9);
+  max-width: calc((100% / 12) * 9);
 }
 
 /* Colonna da 10/12 */
 .col-10{
-  flex-basis: calc((100%/12) * 10);
-  max-width: calc((100%/12) * 10);
+  flex-basis: calc((100% / 12) * 10);
+  max-width: calc((100% / 12) * 10);
 }
 
 /* Colonna da 11/12 */
 .col-11{
-  flex-basis: calc((100%/12) * 11);
-  max-width: calc((100%/12) * 11);
+  flex-basis: calc((100% / 12) * 11);
+  max-width: calc((100% / 12) * 11);
 }
 
 /* Colonna da 12/12 */
 .col-12{
-  flex-basis: calc((100%/12) * 12);
-  max-width: calc((100%/12) * 12);
+  flex-basis: calc((100% / 12) * 12);
+  max-width: calc((100% / 12) * 12);
 }
