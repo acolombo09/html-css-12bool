@@ -41,24 +41,15 @@ section{
   background-color: #006cfa;
 }
 
-.col-green-2{
+.col-green{
   background-color: #00e165;
-  flex-basis: calc((100% / 12) * 2);
-  max-width: calc((100% / 12) * 2);
-}
-
-.col-green-8{
-  background-color: #00e165;
-  flex-basis: calc((100% / 12) * 8);
-  max-width: calc((100% / 12) * 8);
-}
-
-.col-green-6{
-  background-color: #00e165;
-  flex-basis: calc((100% / 12) * 6);
-  max-width: calc((100% / 12) * 6);
 }
 
 .col-green p{
   font-size: .9rem;
+}
+
+.row-nested{
+  width: 100%;
+  margin: 0 auto;
 }
