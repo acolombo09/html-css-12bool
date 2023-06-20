@@ -24,6 +24,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .col > .row, 
@@ -41,5 +42,9 @@ section{
 }
 
 .col-green{
-    background-color: #00e165;
+  background-color: #00e165;
+}
+
+.col-green p{
+  font-size: .9rem;
 }
